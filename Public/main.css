@@ -35,6 +35,6 @@ html, body {
   height: 100%;
 }
 body {
-  background-image: url(Images/welcome.png);
+  background-image: url(Public/Images/welcome.png);
   background-size: cover;
 }
