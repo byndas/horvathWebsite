@@ -1,14 +1,14 @@
 {
-  "name": "simonsays",
+  "name": "HorvathDesign",
   "version": "1.0.0",
-  "description": "memory game",
+  "description": "David Horvath's professional design website",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lemokh/simonsays.git"
+    "url": "git+https://github.com/lemokh/HorvathDesign.git"
   },
   "author": "marc byndas",
   "license": "ISC",
@@ -16,9 +16,9 @@
     "node": "~0.10.21"
   },
   "bugs": {
-    "url": "https://github.com/lemokh/simonsays/issues"
+    "url": "https://github.com/lemokh/HorvathDesign/issues"
   },
-  "homepage": "https://github.com/lemokh/simonsays#readme",
+  "homepage": "https://github.com/lemokh/HorvathDesign#readme",
   "dependencies": {
     "express": "^4.15.2",
     "path": "^0.12.7",
