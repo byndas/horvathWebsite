@@ -35,6 +35,9 @@ html, body {
   height: 100%;
 }
 body {
-  background-image: url(Images/welcome.png);
+  background-image: url(images/welcome.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
