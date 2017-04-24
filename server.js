@@ -3,8 +3,8 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
-app.use('Public', express.static(process.cwd() + 'Public'));
-app.use(favicon(path.join(__dirname, 'Public', 'Images','favicon.ico')));
+app.use('/Public', express.static(process.cwd() + '/Public'));
+app.use(Images(path.join(__dirname, 'Public', 'Images','favicon.ico')));
 
 app.get('/', function(req, res){
 			res.sendFile(process.cwd() + '/Public/main.html');
