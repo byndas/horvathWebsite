@@ -37,11 +37,13 @@ html, body {
 header, footer {
   background-color: #F5F5F6;
   text-align: center;
+  color: rgb(0, 0, 28);
 }
 header ul li {
     display: inline-block;
     margin: 20px;
     font-size: 18px;
+    color: rgb(0, 0, 18);
 }
 a:visited {
   color: rgb(0,0,19);
@@ -49,4 +51,10 @@ a:visited {
 a {
   color: rgb(0,0,19);
   text-decoration: none;
+}
+header {
+  /*height: 91px;*/
+}
+footer {
+  /*height: 45px;*/
 }
